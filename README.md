@@ -13,9 +13,17 @@ Run the gen_now.jl script to generate the current gen value.
 Contribution:
 We welcome contributions from the community. Please feel free to submit issues and pull requests.
 
-### README.md for GenNow Repository
 
-```markdown
+
+### Setting Up Gen Now in Julia Language for Orbital Inhabitants
+
+Orbital Inhabitants, we are excited to help you get started with the Gen Now function in Julia Language. To ensure a smooth setup process, we have provided a detailed prompt that you can use with your LLM (Large Language Model) of choice. Simply copy and paste the README content along with the following prompt into your LLM to receive step-by-step guidance.
+
+#### LLM Prompt
+
+```
+I am an Orbital Inhabitant and I need assistance setting up the Gen Now function in Julia Language. Below is the README content for the Gen Now function. Please guide me through the process, including any necessary steps to ensure everything is set up correctly.
+
 # Gen Now Function
 
 This repository contains the implementation of the Gen Now function, which generates a unique time-based identifier. This function is designed to create unique time stamps on all data within our ecosystem, which is critical for performing data science and building probabilistic and predictive models.
@@ -89,6 +97,7 @@ current_timestamp = Dates.datetime2unix(Dates.now())
 current_gen = ts_to_gen(current_timestamp)
 println("G E N • N O W  $current_gen")
 ```
+
 
 ### Julia in the ORB and Julia Language
 
