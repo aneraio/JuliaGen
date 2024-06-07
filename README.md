@@ -1,4 +1,4 @@
-# JuliaGen
+# JuliaGen in Julia Language 
 
 The Gen Now function generates a unique identifier based on the current time, similar to block time in blockchain technology. This unique time-based identifier is essential for tracking data changes, analyzing trends, and making accurate predictions within our data science and AI projects.
 
